@@ -14,3 +14,4 @@ systemctl status iscsid
 systemctl status messagebus
 systemctl status metacache
 df -hk | grep /hedvig/cache
+lsmod | grep iscsi
